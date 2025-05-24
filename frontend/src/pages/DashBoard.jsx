@@ -28,7 +28,7 @@ import TaskModal from "../components/TaskModal";
 import axios from "axios";
 import { useCallback } from "react";
 
-const API_BASE = "http://localhost:8080/api/v1/tasks";
+const API_BASE = "https://task-manager-app-i6q1.onrender.com/api/v1/tasks";
 
 const DashBoard = () => {
   const { tasks, refreshTasks } = useOutletContext();
