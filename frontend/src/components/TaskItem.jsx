@@ -12,7 +12,7 @@ import axios from "axios";
 import { format, isToday } from "date-fns";
 import TaskModal from "./TaskModal";
 
-const API_BASE = `http://localhost:8080/api/v1/tasks`;
+const API_BASE = `https://task-manager-app-i6q1.onrender.com/api/v1/tasks`;
 
 const TaskItem = ({
   task,
