@@ -15,7 +15,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://task-manager-app-i6q1.onrender.com";
 
 const Profile = ({ setCurrentUser, onLogout }) => {
   const [profile, setProfile] = useState({ name: "", email: "" });
