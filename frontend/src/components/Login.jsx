@@ -15,7 +15,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
   const [formData, setFormData] = useState(INITIAL_FORM);
   const [rememberMe, setRememberMe] = useState(false);
   const navigate = useNavigate();
-  const url = "http://localhost:8080";
+  const url = "https://task-manager-app-i6q1.onrender.com";
 
   useEffect(() => {
     const token = localStorage.getItem("token");
